@@ -11,3 +11,70 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.tt {
+  width: 800px;
+  height: 15px;
+  position: absolute;
+  background-color: red;
+  
+  top: 90%;
+}
+.ttContainer {
+  
+  width: 800px;
+  height: 50%;
+  position: absolute;
+  background-color: green;
+  position: absolute;
+  
+  
+}
+.animate {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background: red;
+}
+.App{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  top:20px;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid rgb(208, 255, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+.oval {
+  width: 20px;
+  height: 35px;
+  top: 20px;
+  background: rgb(255, 0, 157);
+  border-radius: 100px / 50px;
+  border-left: 18px solid transparent;
+  border-right: 18px solid transparent;
+  border-bottom: 9px solid rgb(255, 0, 157);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.rectangle {
+  width: 80px;
+  height: 30px;
+  top: 20px;
+  background: rgb(0, 255, 21);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
